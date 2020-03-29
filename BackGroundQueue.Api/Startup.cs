@@ -1,6 +1,5 @@
 using BackGroundQueue.Api.Background;
-using BackGroundQueue.Api.Persistence;
-using BackGroundQueue.Api.Persistence.Domain;
+using BackgroundQueue.Api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,6 +23,7 @@ namespace BackGroundQueue.Api
             services.AddControllers();
 
             services
+                .AddHostedService<BackgroundWorker>()
                 .AddSingleton<IBackgroundQueue<Book>, BackgroundQueue<Book>>();
             
             services.AddScoped<IBookPublisher, BookPublisher>();

@@ -1,4 +1,4 @@
-﻿namespace BackGroundQueue.Api.Persistence.Domain
+﻿namespace BackgroundQueue.Api.Services
 {
     public class Book
     {

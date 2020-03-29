@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackGroundQueue.Api", "BackGroundQueue.Api\BackGroundQueue.Api.csproj", "{06003A64-4FA1-4DE5-8A1B-14023B2B05B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundQueue.Api", "BackgroundQueue.Api\BackgroundQueue.Api.csproj", "{06003A64-4FA1-4DE5-8A1B-14023B2B05B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

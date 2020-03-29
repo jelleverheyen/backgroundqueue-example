@@ -1,6 +1,5 @@
-﻿using System.Threading.Tasks;
-using BackGroundQueue.Api.Background;
-using BackGroundQueue.Api.Persistence.Domain;
+﻿using BackGroundQueue.Api.Background;
+using BackgroundQueue.Api.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BackGroundQueue.Api.Controllers
@@ -17,7 +16,7 @@ namespace BackGroundQueue.Api.Controllers
         }
         
         [HttpPost]
-        public async Task<IActionResult> Publish([FromBody] Book book)
+        public IActionResult Publish([FromBody] Book book)
         {
             _queue.Enqueue(book);
             

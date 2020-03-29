@@ -1,10 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
-using BackGroundQueue.Api.Persistence.Domain;
 using Microsoft.Extensions.Logging;
 
-namespace BackGroundQueue.Api.Persistence
+namespace BackgroundQueue.Api.Services
 {
     public interface IBookPublisher
     {

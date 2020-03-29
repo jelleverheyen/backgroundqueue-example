@@ -5,7 +5,7 @@
     <e p="C:\Users\j937681\.Rider2019.3\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\j937681\.Rider2019.3\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\j937681\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\j937681\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_BackGroundQueue.2062713759.00" t="ExcludeRecursive" />
+    <e p="C:\Users\j937681\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_BackgroundQueue.2062713759.01" t="ExcludeRecursive" />
     <e p="C:\Users\j937681\dev\articles\BackGroundQueue" t="IncludeFlat">
       <e p="BackGroundQueue.Api" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
@@ -26,18 +26,15 @@
             </e>
           </e>
         </e>
-        <e p="Persistence" t="Include">
-          <e p="BookPublisher.cs" t="Include" />
-          <e p="Domain" t="Include">
-            <e p="Book.cs" t="Include" />
-          </e>
-        </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="Services" t="Include">
+          <e p="Book.cs" t="Include" />
+          <e p="BookPublisher.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
-        <e p="WeatherForecast.cs" t="Include" />
       </e>
       <e p="BackGroundQueue.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

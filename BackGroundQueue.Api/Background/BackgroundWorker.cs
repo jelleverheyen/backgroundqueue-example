@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using BackGroundQueue.Api.Persistence;
-using BackGroundQueue.Api.Persistence.Domain;
+using BackgroundQueue.Api.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
