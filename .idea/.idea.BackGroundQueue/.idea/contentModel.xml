@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\j937681\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\j937681\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\j937681\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\j937681\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\j937681\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_BackGroundQueue.2062713759.00" t="ExcludeRecursive" />
+    <e p="C:\Users\j937681\dev\articles\BackGroundQueue" t="IncludeFlat">
+      <e p="BackGroundQueue.Api" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Background" t="Include">
+          <e p="BackgroundQueue.cs" t="Include" />
+          <e p="BackgroundWorker.cs" t="Include" />
+        </e>
+        <e p="BackGroundQueue.Api.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="BooksController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="BackGroundQueue.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Persistence" t="Include">
+          <e p="BookPublisher.cs" t="Include" />
+          <e p="Domain" t="Include">
+            <e p="Book.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
+      <e p="BackGroundQueue.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
